@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text);
+
+    transition: background-color .5s ease,
+                color .5s ease;
+}
+
+body * {
+    color: var(--text);
+
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid var(--text);
+    background-color: var(--bg-primary);
+}
+
+.selected {
+    animation: flash 2s ease;
+}
+@keyframes flash {
+    0%{
+        background-color: var(--selected);
+    }
+    85% {
+        background-color: var(--selected);
+    }
+    100% {
+        background-color: var(--bg-primary);
+    }
+}

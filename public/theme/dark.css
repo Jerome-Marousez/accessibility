@@ -1,0 +1,8 @@
+:root{
+
+    --text: white;
+
+    --bg-primary: hsl(0, 0%, 10%);
+    --selected: hsl(221, 50%, 40%);
+
+}
