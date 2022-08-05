@@ -1,5 +1,7 @@
 # accessibility
 
+Inspired by Design Course's video, a very small app for people with limited communication
+
 ## Project setup
 ```
 yarn install
